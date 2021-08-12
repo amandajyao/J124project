@@ -2,26 +2,31 @@
 For my final project, I worked with the California Wildfires dataset. This dataset contains information on all wildfires that occurred in California between 2013 to 2020.  
 
 ## Data Analysis
-1. My first question upon looking at the dataset was finding out which year saw the most fires statewide. Generally, I wanted to know how the total number of recorded wildfires varied across the period 2013-2019 from year to year. To determine this, I created a pivot table displaying the counts of individual fires, specifically using the "UniqueId" variable in the dataset, across all "ArchiveYear" values. 2017 saw the most wildfires statewide, totaling 438 fires, while 2014 had the fewest fires over the period examined, counting 117 fires. 
+### What was the yearly distribution of fires? 
+My first question upon looking at the dataset was finding out which year saw the most fires statewide. Generally, I wanted to know how the total number of recorded wildfires varied across the period 2013-2019 from year to year. To determine this, I created a pivot table displaying the counts of individual fires, specifically using the "UniqueId" variable in the dataset, across all "ArchiveYear" values. 2017 saw the most wildfires statewide, totaling 438 fires, while 2014 had the fewest fires over the period examined, counting 117 fires. 
 
 !['firesByYear', 'Number of fires by year'](/firesByYear.png)
 
-2. My next question for analysis was determining which county suffered the most fires over the period. To do this, I created a pivot table counting the number of fires, or the "UniqueId" variable in the dataset, for each county. The results indicate that Riverside county suffered the most wildfires of all California counties over the years 2013-2019. Specifically, Riverside county counted 146 wildfires during the period. 
+### Which county suffered the most fires over the period? 
+My next question for analysis was determining which county suffered the most fires over the period. To do this, I created a pivot table counting the number of fires, or the "UniqueId" variable in the dataset, for each county. The results indicate that Riverside county suffered the most wildfires of all California counties over the years 2013-2019. Specifically, Riverside county counted 146 wildfires during the period. 
 
 !['firesByCounty', 'Number of fires by county'](/firesByCounty.png)
 !['firesByCounty2', 'Number of fires by county'](/firesByCounty2.png)
 
-3. Next, I wanted to examine the distribution of incidents of major fires across the counties. To accomplish this, I filtered the original data to only include observations where "MajorIncident" is TRUE, and created a pivot table counting the number of fires, the "UniqueId" variable in the dataset, for each county. I found that although Riverside county had the most wildfires overall during the period, it did not have the most major incident fires. Butte county experienced the most major incident fires, counting 28 total over the years 2013-2019. 
+### Which county had the most incidents of major fires? 
+Next, I wanted to examine the distribution of incidents of major fires across the counties. To accomplish this, I filtered the original data to only include observations where "MajorIncident" is TRUE, and created a pivot table counting the number of fires, the "UniqueId" variable in the dataset, for each county. I found that although Riverside county had the most wildfires overall during the period, it did not have the most major incident fires. Butte county experienced the most major incident fires, counting 28 total over the years 2013-2019. 
 
 !['majorsByCounty', 'Number of major fires by county'](/majorsByCounty.png)
 !['majorsByCounty2', 'Number of major fires by county'](/majorsByCounty2.png)
 
-4. After looking into the incidents of major fires across counties, I was curious about the distribution of fatalities across the counties. I suspected that, given Butte county experienced the most major fires, it would also have the most fatalities. My results after creating a pivot table displaying fatalities by county confirmed this; almost half of the total fatalities across the entire dataset occurred in Butte county. Specifically, of the 181 total fatalities recorded in the dataset, 85 corresponded to Butte county.
+### What county suffered the most fatalities? 
+After looking into the incidents of major fires across counties, I was curious about the distribution of fatalities across the counties. I suspected that, given Butte county experienced the most major fires, it would also have the most fatalities. My results after creating a pivot table displaying fatalities by county confirmed this; almost half of the total fatalities across the entire dataset occurred in Butte county. Specifically, of the 181 total fatalities recorded in the dataset, 85 corresponded to Butte county.
 
 !['fatalitiesByCounty', 'Number of fatalities by county'](/fatalitiesByCounty.png)
 !['fatalitiesByCounty2', 'Number of fatalities by county'](/fatalitiesByCounty2.png)
 
-5. Finally, I wanted to examine the distribution of the total number of acres burned by county over the period. To do this, I first created a pivot table calculating the sum of the "AcresBurned" variable by each individual county. Then, for heightened ease of analysis, I sorted the obtained pivot table in descending order by the column containing the sums of "AcresBurned." Lake county had the most acres burned, at 582784 acres, while Alpine county had the least, at zero acres.
+### What was the distribution of total number of acres burned by county? 
+Finally, I wanted to examine the distribution of the total number of acres burned by county over the period. To do this, I first created a pivot table calculating the sum of the "AcresBurned" variable by each individual county. Then, for heightened ease of analysis, I sorted the obtained pivot table in descending order by the column containing the sums of "AcresBurned." Lake county had the most acres burned, at 582784 acres, while Alpine county had the least, at zero acres.
 
 !['sumAcresBurned', 'Sum of acres burned by county'](/sumAcresBurned.png)
 !['sumAcresBurned2', 'Sum of acres burned by county'](/sumAcresBurned2.png) 
