@@ -44,7 +44,7 @@ According to the categorization of counties into divisions and areas by the Cali
 
 As president of the California Fire Chiefs Association, Stefano would be able to provide more general and broad information regarding wildfires within the state at large. He represents a key authoritative source for the story. 
 #### Additional Sources
-1. [Another source](https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/201902/1/value) I would want to employ is detailed data regarding the climate of Butte and Riverside counties at various times of the year, and examining what the climate indicators are like in the two counties during peak fire season. 
+1. [Another source](https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/201902/1/value) I would want to employ is detailed data regarding the climate of Butte and Riverside counties at various times of the year, and examining what the climate indicators are like in the two counties during peak fire season. This data comes from the National Oceanic and Atmospheric Association. 
 2. In addition, I would also like to use the [fire hazard severity zone maps](https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/) hosted by the Office of the State Fire Marshal. This data would allow me to be more specific and exact when discussing areas in the two counties that are particularly high-risk for fires. 
 
 ## Data Visualization
