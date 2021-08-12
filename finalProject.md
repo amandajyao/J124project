@@ -45,7 +45,7 @@ Under the categorization of counties into divisions and areas by the California 
 
 According to the categorization of counties into divisions and areas by the California Fire Chiefs Association, Riverside county falls under Area 4 of the South Division, which is directed by Don Butz. Butz would almost certainly have highly pertinent information on specific characteristics of Riverside county that make it prone to frequent fires. 
 
-3. Dan Stefano - President of the California Fire Chiefs Association: (714)754-5144, dan.stefano@calchiefs.org
+3. Dan Stefano - President of the California Fire Chiefs Association: (714) 754-5144, dan.stefano@calchiefs.org
 
 As president of the California Fire Chiefs Association, Stefano would be able to provide more general and broad information regarding wildfires within the state at large. He represents a key authoritative source for the story. 
 #### Additional Sources
